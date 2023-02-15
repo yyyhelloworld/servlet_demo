@@ -11,6 +11,9 @@ public class Test01Servlet extends BaseServlet {
 
     public  void add(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("运行了add()");
+             System.out.println("运行了add()");
+             System.out.println("运行了add()");
+             System.out.println("运行了add()");
         request.getRequestDispatcher("index.jsp").forward(request,response);
     }
 
